@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 { int n,rem=0,sum=0;
-printf("enter a number\n");
-scanf("%d",&n);
+ cout<<"enter a number\n";
+cin>>n;
 rem=(n%10)*100;
 n=(n/10);
 sum=sum+rem+(n%10)*10+(n/10);
-printf("%d rotated as %d\n",n,sum);
+cout<<n<<" rotated as "<<sum;
 return 0;
 }
