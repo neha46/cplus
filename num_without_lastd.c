@@ -6,8 +6,7 @@ int main()
     cout<<"enter  number\n";
     cin>>n;
     i=n/10;
-    cout<<"without lastdigit= "<<i
-        ;
+    cout<<"without lastdigit= "<<i;
     return 0;
 
 }
