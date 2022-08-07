@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n,i;
-    printf("enter  number\n");
-    scanf("%d",&n);
+    cout<<"enter  number\n"<<endl;
+    cin>>n;
     i=n%10;
-    printf("unit digit of %d= %d\n",n,i);
+    cout<<"unit digit is "<<i;
     return 0;
 
 }
