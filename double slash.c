@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
-printf("\\\\");
+cout<<"\\\\";
     return 0;
 }
