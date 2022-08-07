@@ -1,13 +1,11 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int h,m;
-    printf("enter the time\n");
-    scanf("%d%d",&h,&m);
-    printf("\"%d:%d\"\n",h,m);
-    printf("\"%d hour and  %d minute\"",h,m);
+    cout<<"enter the time\n";
+cin>>h>>m;
+    cout<<h<<":"<<m<<endl;
     return 0;
-
-
-
 }
+
