@@ -1,16 +1,18 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int num1,num2;
-    printf("enter  number\n");
-    scanf("%d%d",&num1,&num2);
+    cout<<"enter  number\n";
+    cin>>num1>>num2;
     //before swaping
-    printf("before swapping\n");
-    printf("num1=%d\t num2=%d\n",num1,num2);
+   cout<<"before swapping\n";
+    cout<<"num1= "<<num1<<" num2= "<<num2<<endl;
     //after swaping
-    printf("after swapping\n");
-    printf("num1=%d\t num2=%d\n",num2,num1);
+    cout<<"after swapping\n";
+    cout<<"num1= "<<num2<<" num2= "<<num1<<endl;;
     return 0;
 
 }
+
 
