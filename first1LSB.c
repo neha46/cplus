@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n,res;
-    printf("enter a number\n");
-    scanf("%d",&n);
+    cout<<"enter a number\n";
+    cin>>n;
      int count=0;
      while(n!=1)
      {
     res=n&1;
     count++;
     if(res==1)
-{
-    printf("position is %d",count);
-}
-n=n>>1;}
-
+    {
+    cout<<"position is "<<count<<endl;
+    }
+n=n>>1;
+     }
 
 }
