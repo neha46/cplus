@@ -1,13 +1,14 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int num,digit,result;
-    printf("Enter number\n");
-    scanf("%d",&num);
+    cout<<"Enter number\n";
+    cin>>num;
     num=num*10;
-    printf("Enter digit for append\t");
-    scanf("%d",&digit);
+    cout<<"Enter digit for append\t"<<endl;;
+    cin>>digit;
     digit=num+digit;
-    printf(" Added number is %d\n",digit);
+    cout<<" Added number is "<<digit;
     return 0;
 }
