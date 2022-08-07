@@ -7,6 +7,6 @@ cin>>n;
 rem=(n%10)*100;
 n=(n/10);
 sum=sum+rem+(n%10)*10+(n/10);
-cout<<n<<" rotated as "<<sum;
+cout<<" rotated as "<<sum;
 return 0;
 }
