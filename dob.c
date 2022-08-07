@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int d,m,y;
-    printf("enter the DOB\n");
-    scanf("%d%d%d",&d,&m,&y);
-    printf("%d/%d/%d\n",d,m,y);
-    printf("Day=%d, Month=%d, year=%d",d,m,y);
+    cout<<"enter the DOB\n";
+    cin>>d>>m>>y;
+    cout<<"day is "<<d<<" month is "<<m<<" year is "<<y<<endl;
+    cout<<"DOB is "<<d<<"/"<<m<<"/"<<y;
     return 0;
 }
