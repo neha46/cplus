@@ -1,11 +1,13 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n,i;
-    printf("enter  number\n");
-    scanf("%d",&n);
+    cout<<"enter  number\n";
+    cin>>n;
     i=n/10;
-    printf("%d without lastdigit= %d\n",n,i);
+    cout<<"without lastdigit= "<<i
+        ;
     return 0;
 
 }
