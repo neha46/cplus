@@ -1,17 +1,18 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n,result=0;
-    printf("Enter a number\n");
-    scanf("%d",&n);
-    printf("your entered number is %d\n",n);
+    cout<<"Enter a number\n";
+    cin>>n;
+    cout<<"your entered number is "<<n<<endl;
     result=n&1;
     if(result==1)
     {
-        printf("%d is ODD\n",n);
+    cout<<"odd"<<endl;
     }
     else
-        printf("%d is EVEN\n",n);
+        cout<<" EVEN"<<endl;
 return 0;
 
 }
