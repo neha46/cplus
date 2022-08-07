@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
-printf("Size of int=%d\n",sizeof(int));
-printf("Size of  Float =%d\n",sizeof(float));
-printf("Size of Char=%d\n",sizeof(char));
-printf("Size of Double=%d\n",sizeof(double));
+cout<<"Size of int= "<<sizeof(int);
+cout<<"Size of  Float = "<<sizeof(float);
+cout<<"Size of Char= "<<sizeof(char);
+cout<<"Size of Double= "<<sizeof(double);
 return 0;
 }
