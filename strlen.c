@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     int a;
-    a=printf("neha");// or we canuse  sizeof operator
-    printf(" length is %d",a);
+    cout<<" length is "<<sizeof(a);
     return 0;
 }
+
